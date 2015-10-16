@@ -1,75 +1,79 @@
-title: Daniel Hauck - System Engineer & Backend Developer
-name: Daniel Hauck
-email: daniel@hauck.it
-url: hauck-daniel.de
-location: Leinfelden-Echterdingen
+title: Charles Hawley - Linux Administrator
+name: Charles Hawley
+email: chuck@planethawleywood.com
+url: resume.planethawleywood.com/resume.pdf
+location: Cleveland, Ohio
 favicon: favicon.ico
-ext_link: https://blog.hauck.io
-description: Daniel Hauck, System Engineer & Backenddeveloper, Linux Administrator, Python Developer, based in Stuttgart, Database Adminstrator(DBA) 
+ext_link: https://blog.planethawleywood.com
+description: Charles Hawley, System Engineer, Linux Administrator, Hadoop Administrator 
 long_description: >
-    I work as a system engineer and backend developer.   
-    I am specialized in building high performance  and 
-    highly availabe infrastructures and I am a lover of 
-    fast and simple systems. My current interests are 
-    automation, IoT, databases(SQL, NoSQL) and workflow 
-    simplification and optimization. If you are interested 
-    in my work, take a look at the 'Latest Projects' or 
-    take a look at my blog.
-profession: System Administrator & Backend Developer
-twitter_link: https://twitter.com/daniel_hauck
-gplus_link: https://plus.google.com/u/1/+DanielHauckLinux
-linkedin_link: https://de.linkedin.com/pub/daniel-hauck/74/283/943
-github_link: https://github.com/hauckd
+    Linux Administrator and Open Source consultant with experience in most flavors of modern Linux.  \n
+    Proudly Microsoft-free at home, but diplomatically Microsoft-friendly in the office.  \n
+    Eleven years experience with Ubutu/Debian and RHEL/CentOS Linux.  I have experience with \n 
+    administration, configuration and setup of small and SOHO Linux installations.  \n
+    Experienced with managed hosting (inc. Plesk, cPanel) and server support in a data center environment. \n 
+    VMWare, HyperV, Ansible, firewalls, SSH, VPNs, Linux server hardening, automation and shell scripting. \n 
+    Adept at integrating Linux and Microsoft Windows servers in an Active Directory environment. \n 
+    Spent ten years as a Windows developer and assisted with Microsoft SQL Server Administration. \n
+    Experienced with ASP, VBA, VB.NET and windows scripting.  \n
+    I spent all my time in a terminal window (usually terminator or KiTTY) and swear that vim is a tool of the gods. \n
+    If vim isn't available I'll use notepad++ or plain notepad only to wind up with :wq strewn \n
+    throughout every page.  \n
+    I'm interested in computer history and folklore, OSS, automation and vim.  Did I mention vim?  \n
+    I enjoy repairing, restoring and re-purposing broken or out-dated computers and hardware.
+
+profession: Linux Administrator
+twitter_link: https://twitter.com/simplyodd
+linkedin_link: https://www.linkedin.com/pub/charles-hawley/23/37/64b
+github_link: https://github.com/crh0831
 
 projects: 
-        - title: didit
-          image: images/project_didit.png
-          link: didit.notimetoexplain.de
+        - title: None Yet
+          image: 
+          link: 
           description: >
-            Didit is a small service which emails you in defined period and asks you what you have done,
-            or what you haven't done.
-            You just reply to the mail with the tasks you have done, or tasks you haven't done for a reason.
-            Now everbody has replied in a range of time, didit collects the information of the team members
-            and sends an email to everyone that they can see, what the other members have done.
+            
+          
+education:
+       - name: Cloudera, ExitCertified
+         date: July 2015
+         description: Cloudera Administrator Training for Apache Hadoop
 
-        - title: PySnipp
-          description: >
-              PySnipp is a command line application for collecting snippets and notes. For example you could store often used pieces of code there. For adding and editing your snippets the text editor vim is used.
-
+       - name: Cuyahoga Corporate College, Westlake, Ohio
+         date: March 2011
+         description: Configuring and Administering Windows 7    
 
 skills:
         - name: Linux
           description: profound linux command line knowledge in general
           percentage: 90
 
-        - name: Automation
-          descripition: Continous Deployment and Integration, Server Installation and Environment Provision
-          percentage: 90
+        - name: Ansible
+          description: Continous Deployment and Integration, Server Installation and Environment Provision
+          percentage: 70
 
-        - name: Database Administrator      
-          descripition: RDMBS(PostgreSQL, MySQL) and NoSQL(MongoDB, Redis, ArangoDB) 
-          percentage: 80
+        - name: WebAdmin
+          description: Web server configuration and administration (Apache, NGINX, lighttp)
+          percentage: 75
 
-        - name: Python 
-          descripition: Backend Development
+        - name: Microsoft Windows
+          description: general knowledge of all versions through 8.1, Active Directory, RDP and administration
+          percentage: 60    
+
+        - name: Database Administration      
+          description: RDMBS(PostgreSQL, MySQL) and NoSQL(MongoDB) 
+          percentage: 70
+
+        - name: Data Science Administration 
+          description: Exprerience with installing/configuring R/R-Studio, Shiny Server,  Hadoop
           percentage: 60 
 
-languages:
-        - name: German
-          level: Native Speaker   
-          stars: 5
-
-        - name: English
-          level: Business Fluent
-          stars: 4
-        
-        
 tools:
+    - ssh
     - vim
     - tmux
     - git
     - ansible 
-    - salt
-    - nginx
-    - python
+    - PuTTY / KiTTY
+    - MySQL / Percona-Server
     - many more

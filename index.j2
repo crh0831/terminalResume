@@ -20,7 +20,7 @@
     <link href="css/jquery.terminal.css" rel="stylesheet"/>
     <style> 
         body {
-            width: 800px;
+            width: 1200px;
             font-size: 18px;
         }
     </style>
@@ -63,18 +63,22 @@ jQuery(document).ready(function($) {
                 {% endif %}
                 break;
                 
+            case 'education':
+                {% for course in about.education %}
+                    term.echo("{{ course.name }}");
+                    term.echo("{{ course.date }}");
+                    term.echo("{{ course.description }}");
+                    term.echo(" -------------------- ");
+                {% endfor %}
+                break;
             case 'skills':
                 {% for skill in about.skills %}
                     var stars_length = Math.round({{ skill.percentage }} / 20);
                     var stars_filled = Array(stars_length + 1).join("&#9733;")
                     var stars_blank= Array(6 - stars_length).join("&#9734;")
                     term.echo("{{ skill.name }} --> " + stars_filled + stars_blank);
-                {% endfor %}
-                break;
-            
-            case 'languages':
-                {% for lang in about.languages %}
-                    term.echo("{{ lang.name }} - {{ lang.level }}");
+                    term.echo("  {{ skill.description }}");
+                    term.echo(" ");
                 {% endfor %}
                 break;
             case 'tools':
@@ -82,7 +86,6 @@ jQuery(document).ready(function($) {
                     term.echo("&#128295; {{ tool}}");
                 {% endfor %}
                 break;
-
             case 'projects':
                 {% for proj in about.projects %}
                     term.echo("{{ proj.title }}");
@@ -90,21 +93,17 @@ jQuery(document).ready(function($) {
                     term.echo("-----------------------");
                 {% endfor %}
                 break;
-
-
             case 'help':
-                term.echo("Available commands are: whois, about, skills, help, social, languages, tools, projects, getyourown")
+                term.echo("Available commands are: whois, about, education, skills, help, social, tools, projects, getyourown")
                 break;
             case 'getyourown':
                 window.location = "https://github.com/hauckd/terminalCV";
                 break;
-
             case 'docker':
                 term.echo("You can't get twitter followers or github stars here ;)");
                 break;
-
             case 'vim':
-                term.echo("I love it too, but sadly it's not available here :(");
+                term.echo("A tool of the gods!  :wq :wq :wq ... ?");
                 break;
 
             case ':(':
@@ -117,9 +116,9 @@ jQuery(document).ready(function($) {
         }
     }, {
         prompt: '~ > ',
-        greetings: "Welcome to the command line CV of {{ about.name }}" +
+        greetings: "Welcome to the command line resume of {{ about.name }}" +
         "\n\n" +
-        "If you would like the more 'normal'"+ 
+        "If you would like the more 'normal' (pdf)"+ 
         "\n" +
         "version head over to http://{{ about.url }}" +
         "\n\n" +
