@@ -10,7 +10,7 @@
     <meta name="author" content="Charles Hawley">    
     <meta property="og:title" content="Charles Hawley - Portfolio" />
     <meta property="og:type" content="website"/>
-    <meta property="og:url" content="resume.planethawleywood.com/resume.pdf" />
+    <meta property="og:url" content="http://resume.planethawleywood.com/resume.pdf" />
     <meta property="og:image" content="" />
     <link rel="sitemap" type="application/xml" title="Sitemap" href=""/>
     <link rel="shortcut icon" href="favicon.ico"/>
@@ -38,7 +38,7 @@ jQuery(document).ready(function($) {
                 "Email: \t\t   chuck@planethawleywood.com\n" +
                 "Location: \t\tCleveland, Ohio\n" +
                 "Profession: \t  Linux Administrator\n" +
-                "Homepage: \t\thttps://blog.planethawleywood.com\n";
+                "Homepage: \t\thttp://blog.planethawleywood.com\n";
                 term.echo(whois);
                 break;
             case 'about': 
@@ -140,8 +140,8 @@ jQuery(document).ready(function($) {
                 break;
             case 'projects':
                 
-                    term.echo("None Yet");
-                    term.echo("");
+                    term.echo("terminalResume");
+                    term.echo("A text-screen style Resume for SysAdmin's and other technical people");
                     term.echo("-----------------------");
                 
                 break;
@@ -149,7 +149,7 @@ jQuery(document).ready(function($) {
                 term.echo("Available commands are: whois, about, education, skills, help, social, tools, projects, getyourown")
                 break;
             case 'getyourown':
-                window.location = "https://github.com/hauckd/terminalCV";
+                window.location = "https://github.com/crh0831/terminalResume";
                 break;
             case 'docker':
                 term.echo("You can't get twitter followers or github stars here ;)");
@@ -164,7 +164,7 @@ jQuery(document).ready(function($) {
                 
 
             default: 
-                term.echo("unknow command " + command);
+                term.echo("unknown command " + command);
         }
     }, {
         prompt: '~ > ',
@@ -172,7 +172,7 @@ jQuery(document).ready(function($) {
         "\n\n" +
         "If you would like the more 'normal' (pdf)"+ 
         "\n" +
-        "version head over to http://resume.planethawleywood.com/resume.pdf" +
+        "version head over to http://http://resume.planethawleywood.com/resume.pdf" +
         "\n\n" +
         "Type 'help' to get a list of commands",
         onBlur: function() {
