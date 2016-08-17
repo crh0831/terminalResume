@@ -1,11 +1,11 @@
-title: Charles Hawley - Linux Administrator
+title: Charles Hawley - Linux Administrator/Network Engineer
 name: Charles Hawley
 email: chuck@planethawleywood.com
 url: resume.planethawleywood.com/resume.pdf
 location: Cleveland, Ohio
 favicon: favicon.ico
-ext_link: http://blog.planethawleywood.com
-description: Charles Hawley, System Engineer, Linux Administrator, Hadoop Administrator 
+ext_link: http://weblog.planethawleywood.com
+description: Charles Hawley, System Engineer, Linux Administrator, Hadoop Administrator, Network Engineer
 long_description: >
     Linux Administrator and Open Source consultant with experience in most flavors of modern Linux.  \n
     Proudly Microsoft-free at home, but diplomatically Microsoft-friendly in the office.  \n
@@ -22,7 +22,7 @@ long_description: >
     I'm interested in computer history and folklore, OSS, automation and vim.  Did I mention vim?  \n
     I enjoy repairing, restoring and re-purposing broken or out-dated computers and hardware.
 
-profession: Linux Administrator
+profession: Linux Administrator/Network Engineer
 twitter_link: https://twitter.com/simplyodd
 linkedin_link: https://www.linkedin.com/pub/charles-hawley/23/37/64b
 github_link: https://github.com/crh0831
@@ -33,7 +33,11 @@ projects:
           link: https://github.com/crh0831/terminalResume
           description: A text-screen style Resume for SysAdmin's and other technical people
             
-          
+        - title: gitServer
+          image:
+          link: https://gogs.planethawleywood.com:8443/explore/repos
+          description: maintaining my own git server (using Gogs) for personal projects
+
 education:
        - name: Cloudera, ExitCertified
          date: July 2015
@@ -45,19 +49,31 @@ education:
 
 skills:
         - name: Linux
-          description: profound linux command line knowledge in general
+          description: Experience with administration of Redhat/Ubuntu flavors of Linux
           percentage: 90
+
+        - name: Virtualization
+          description: Experience with Hyper-V and VM-Ware
+          percentage: 75
+
+        - name: Containerization           
+          description: have some experience with Vagrant and Docker
+          percentage: 60
 
         - name: Ansible
           description: Continous Deployment and Integration, Server Installation and Environment Provision
           percentage: 70
+
+        - name: Data Center
+          description: Experience with Data Center deployments and maintenance of Dell and HP hardware (servers, switches, KVMs, PSUs)
+          percentage: 75
 
         - name: WebAdmin
           description: Web server configuration and administration (Apache, NGINX, lighttp)
           percentage: 75
 
         - name: Microsoft Windows
-          description: general knowledge of all versions through 8.1, Active Directory, RDP and administration
+          description: general knowledge of all versions through Windows 10, Active Directory, RDP and administration
           percentage: 60    
 
         - name: Database Administration      
@@ -76,4 +92,7 @@ tools:
     - ansible 
     - PuTTY / KiTTY
     - MySQL / Percona-Server
+    - Apache
+    - DNS
+    - Firewalls  
     - many more

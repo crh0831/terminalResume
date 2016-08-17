@@ -2,11 +2,11 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
   <head>
     <meta charset="utf-8" />
-    <title>Charles Hawley - Linux Administrator</title>
+    <title>Charles Hawley - Linux Administrator/Network Engineer</title>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Charles Hawley, System Engineer, Linux Administrator, Hadoop Administrator">
+    <meta name="description" content="Charles Hawley, System Engineer, Linux Administrator, Hadoop Administrator, Network Engineer">
     <meta name="author" content="Charles Hawley">    
     <meta property="og:title" content="Charles Hawley - Portfolio" />
     <meta property="og:type" content="website"/>
@@ -37,8 +37,8 @@ jQuery(document).ready(function($) {
                 var whois = "Name: \t\t\tCharles Hawley\n" +
                 "Email: \t\t   chuck@planethawleywood.com\n" +
                 "Location: \t\tCleveland, Ohio\n" +
-                "Profession: \t  Linux Administrator\n" +
-                "Homepage: \t\thttp://blog.planethawleywood.com\n";
+                "Profession: \t  Linux Administrator/Network Engineer\n" +
+                "Homepage: \t\thttp://weblog.planethawleywood.com\n";
                 term.echo(whois);
                 break;
             case 'about': 
@@ -80,7 +80,21 @@ jQuery(document).ready(function($) {
                     var stars_filled = Array(stars_length + 1).join("&#9733;")
                     var stars_blank= Array(6 - stars_length).join("&#9734;")
                     term.echo("Linux --> " + stars_filled + stars_blank);
-                    term.echo("  profound linux command line knowledge in general");
+                    term.echo("  Experience with administration of Redhat/Ubuntu flavors of Linux");
+                    term.echo(" ");
+                
+                    var stars_length = Math.round(75 / 20);
+                    var stars_filled = Array(stars_length + 1).join("&#9733;")
+                    var stars_blank= Array(6 - stars_length).join("&#9734;")
+                    term.echo("Virtualization --> " + stars_filled + stars_blank);
+                    term.echo("  Experience with Hyper-V and VM-Ware");
+                    term.echo(" ");
+                
+                    var stars_length = Math.round(60 / 20);
+                    var stars_filled = Array(stars_length + 1).join("&#9733;")
+                    var stars_blank= Array(6 - stars_length).join("&#9734;")
+                    term.echo("Containerization --> " + stars_filled + stars_blank);
+                    term.echo("  have some experience with Vagrant and Docker");
                     term.echo(" ");
                 
                     var stars_length = Math.round(70 / 20);
@@ -88,6 +102,13 @@ jQuery(document).ready(function($) {
                     var stars_blank= Array(6 - stars_length).join("&#9734;")
                     term.echo("Ansible --> " + stars_filled + stars_blank);
                     term.echo("  Continous Deployment and Integration, Server Installation and Environment Provision");
+                    term.echo(" ");
+                
+                    var stars_length = Math.round(75 / 20);
+                    var stars_filled = Array(stars_length + 1).join("&#9733;")
+                    var stars_blank= Array(6 - stars_length).join("&#9734;")
+                    term.echo("Data Center --> " + stars_filled + stars_blank);
+                    term.echo("  Experience with Data Center deployments and maintenance of Dell and HP hardware (servers, switches, KVMs, PSUs)");
                     term.echo(" ");
                 
                     var stars_length = Math.round(75 / 20);
@@ -101,7 +122,7 @@ jQuery(document).ready(function($) {
                     var stars_filled = Array(stars_length + 1).join("&#9733;")
                     var stars_blank= Array(6 - stars_length).join("&#9734;")
                     term.echo("Microsoft Windows --> " + stars_filled + stars_blank);
-                    term.echo("  general knowledge of all versions through 8.1, Active Directory, RDP and administration");
+                    term.echo("  general knowledge of all versions through Windows 10, Active Directory, RDP and administration");
                     term.echo(" ");
                 
                     var stars_length = Math.round(70 / 20);
@@ -135,6 +156,12 @@ jQuery(document).ready(function($) {
                 
                     term.echo("&#128295; MySQL / Percona-Server");
                 
+                    term.echo("&#128295; Apache");
+                
+                    term.echo("&#128295; DNS");
+                
+                    term.echo("&#128295; Firewalls");
+                
                     term.echo("&#128295; many more");
                 
                 break;
@@ -142,6 +169,10 @@ jQuery(document).ready(function($) {
                 
                     term.echo("terminalResume");
                     term.echo("A text-screen style Resume for SysAdmin's and other technical people");
+                    term.echo("-----------------------");
+                
+                    term.echo("gitServer");
+                    term.echo("maintaining my own git server (using Gogs) for personal projects");
                     term.echo("-----------------------");
                 
                 break;
