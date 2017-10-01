@@ -38,16 +38,16 @@ jQuery(document).ready(function($) {
                 "Email: \t\t   chuck@planethawleywood.com\n" +
                 "Location: \t\tCleveland, Ohio\n" +
                 "Profession: \t  Linux Administrator/Network Engineer\n" +
-                "Homepage: \t\thttp://weblog.planethawleywood.com\n";
+                "Homepage: \t\thttps://about.me/charleshawley\n";
                 term.echo(whois);
                 break;
             case 'about': 
-                var about = "Linux Administrator and Open Source consultant with experience in most flavors of modern Linux.  \n Proudly Microsoft-free at home, but diplomatically Microsoft-friendly in the office.  \n Eleven years experience with Ubutu/Debian and RHEL/CentOS Linux.  I have experience with \n  administration, configuration and setup of small and SOHO Linux installations.  \n Experienced with managed hosting (inc. Plesk, cPanel) and server support in a data center environment. \n  VMWare, HyperV, Ansible, firewalls, SSH, VPNs, Linux server hardening, automation and shell scripting. \n  Adept at integrating Linux and Microsoft Windows servers in an Active Directory environment. \n  Spent ten years as a Windows developer and assisted with Microsoft SQL Server Administration. \n Experienced with ASP, VBA, VB.NET and windows scripting.  \n I spent all my time in a terminal window (usually terminator or KiTTY) and swear that vim is a tool of the gods. \n If vim isn't available I'll use notepad++ or plain notepad only to wind up with :wq strewn \n throughout every page.  \n I'm interested in computer history and folklore, OSS, automation and vim.  Did I mention vim?  \n I enjoy repairing, restoring and re-purposing broken or out-dated computers and hardware";
+                var about = "Linux Administrator and Open Source consultant with experience in most flavors of modern Linux.  \n Proudly Microsoft-free at home, but diplomatically Microsoft-friendly in the office.  \n Twelve years experience with Ubutu/Debian and RHEL/CentOS Linux.  I have experience with \n  administration, configuration and setup of small and SOHO Linux installations.  \n Experienced with managed hosting (inc. Plesk, cPanel) and server support in a data center environment. \n  VMWare, HyperV, Ansible, firewalls, SSH, VPNs, server hardening, automation and shell (bash) scripting. \n  Adept at integrating Linux and Microsoft Windows servers in an Active Directory environment. \n  Spent ten years as a Windows developer and assisted with Microsoft SQL Server Administration. \n Experienced with ASP, VBA, VB.NET and windows scripting.  \n\n I spent all my time in a terminal window (usually terminator or KiTTY) \n and swear that vim is a tool of the gods. \n\n If vim isn't available I'll use notepad++ or plain notepad only to wind up with :wq strewn \n throughout every page.  \n\n I'm interested in computer history and folklore, OSS, automation \n and extending, breaking and fixing my .vimrc. \n\n You know that one friend that has too many pets because they can't stand to see an animal \n without a home?  Yeah, I'm that guy, but with computers.  I enjoy repairing, restoring and re-purposing \n broken or out-dated computers and hardware and at any time have three or four machines in \n various states of repair";
                 term.echo(about);
                 break;
             case 'social':
                 
-                    term.echo("Twitter: https://twitter.com/simplyodd");
+                    term.echo("Twitter: https://twitter.com/iamchuckhawley");
                 
 
                 
@@ -73,6 +73,16 @@ jQuery(document).ready(function($) {
                     term.echo("Configuring and Administering Windows 7");
                     term.echo(" -------------------- ");
                 
+                    term.echo("Cuyahoga Community College");
+                    term.echo("1990 - 1994");
+                    term.echo("Associates Degree, Computer Science");
+                    term.echo(" -------------------- ");
+                
+                    term.echo("Total Technical Institute, North Royalton, Ohio");
+                    term.echo("June 1987 - March 1988");
+                    term.echo("certified hardware repair technician");
+                    term.echo(" -------------------- ");
+                
                 break;
             case 'skills':
                 
@@ -90,14 +100,14 @@ jQuery(document).ready(function($) {
                     term.echo("  Experience with Hyper-V and VM-Ware");
                     term.echo(" ");
                 
-                    var stars_length = Math.round(60 / 20);
+                    var stars_length = Math.round(50 / 20);
                     var stars_filled = Array(stars_length + 1).join("&#9733;")
                     var stars_blank= Array(6 - stars_length).join("&#9734;")
                     term.echo("Containerization --> " + stars_filled + stars_blank);
                     term.echo("  have some experience with Vagrant and Docker");
                     term.echo(" ");
                 
-                    var stars_length = Math.round(70 / 20);
+                    var stars_length = Math.round(50 / 20);
                     var stars_filled = Array(stars_length + 1).join("&#9733;")
                     var stars_blank= Array(6 - stars_length).join("&#9734;")
                     term.echo("Ansible --> " + stars_filled + stars_blank);
@@ -118,7 +128,7 @@ jQuery(document).ready(function($) {
                     term.echo("  Web server configuration and administration (Apache, NGINX, lighttp)");
                     term.echo(" ");
                 
-                    var stars_length = Math.round(60 / 20);
+                    var stars_length = Math.round(75 / 20);
                     var stars_filled = Array(stars_length + 1).join("&#9733;")
                     var stars_blank= Array(6 - stars_length).join("&#9734;")
                     term.echo("Microsoft Windows --> " + stars_filled + stars_blank);
@@ -132,11 +142,11 @@ jQuery(document).ready(function($) {
                     term.echo("  RDMBS(PostgreSQL, MySQL) and NoSQL(MongoDB)");
                     term.echo(" ");
                 
-                    var stars_length = Math.round(60 / 20);
+                    var stars_length = Math.round(50 / 20);
                     var stars_filled = Array(stars_length + 1).join("&#9733;")
                     var stars_blank= Array(6 - stars_length).join("&#9734;")
                     term.echo("Data Science Administration --> " + stars_filled + stars_blank);
-                    term.echo("  Exprerience with installing/configuring R/R-Studio, Shiny Server,  Hadoop");
+                    term.echo("  Experience with installing/configuring R/R-Studio, Shiny Server,  Hadoop");
                     term.echo(" ");
                 
                 break;
@@ -152,9 +162,11 @@ jQuery(document).ready(function($) {
                 
                     term.echo("&#128295; ansible");
                 
+                    term.echo("&#128295; backuppc");
+                
                     term.echo("&#128295; PuTTY / KiTTY");
                 
-                    term.echo("&#128295; MySQL / Percona-Server");
+                    term.echo("&#128295; MySQL / MariaDB /Percona-Server");
                 
                     term.echo("&#128295; Apache");
                 
@@ -168,11 +180,11 @@ jQuery(document).ready(function($) {
             case 'projects':
                 
                     term.echo("terminalResume");
-                    term.echo("A text-screen style Resume for SysAdmin's and other technical people");
+                    term.echo("A text-screen style Resume for SysAdmin's and other technical people \n");
                     term.echo("-----------------------");
                 
-                    term.echo("gitServer");
-                    term.echo("maintaining my own git server (using Gogs) for personal projects");
+                    term.echo("The Valentine Project");
+                    term.echo("I volunteered at Cleveland GiveCamp and assisted 'The Valentine Project' \n in refreshing their web presence. I served as site admin by managing hosting, \n DNS, loading the initial CMS and database and configuring email. I handled site \n security by configuring SSL and hardening user accounts. I also assisted with \n scrum-style checklists and documentation to deliver a finished product in \n just over 24 working hours from July 21-23, 2017. \n");
                     term.echo("-----------------------");
                 
                 break;

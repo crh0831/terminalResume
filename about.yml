@@ -4,26 +4,31 @@ email: chuck@planethawleywood.com
 url: resume.planethawleywood.com/resume.pdf
 location: Cleveland, Ohio
 favicon: favicon.ico
-ext_link: http://weblog.planethawleywood.com
+ext_link: https://about.me/charleshawley
 description: Charles Hawley, System Engineer, Linux Administrator, Hadoop Administrator, Network Engineer
 long_description: >
     Linux Administrator and Open Source consultant with experience in most flavors of modern Linux.  \n
     Proudly Microsoft-free at home, but diplomatically Microsoft-friendly in the office.  \n
-    Eleven years experience with Ubutu/Debian and RHEL/CentOS Linux.  I have experience with \n 
+    Twelve years experience with Ubutu/Debian and RHEL/CentOS Linux.  I have experience with \n 
     administration, configuration and setup of small and SOHO Linux installations.  \n
     Experienced with managed hosting (inc. Plesk, cPanel) and server support in a data center environment. \n 
-    VMWare, HyperV, Ansible, firewalls, SSH, VPNs, Linux server hardening, automation and shell scripting. \n 
+    VMWare, HyperV, Ansible, firewalls, SSH, VPNs, server hardening, automation and shell (bash) scripting. \n 
     Adept at integrating Linux and Microsoft Windows servers in an Active Directory environment. \n 
     Spent ten years as a Windows developer and assisted with Microsoft SQL Server Administration. \n
-    Experienced with ASP, VBA, VB.NET and windows scripting.  \n
-    I spent all my time in a terminal window (usually terminator or KiTTY) and swear that vim is a tool of the gods. \n
+    Experienced with ASP, VBA, VB.NET and windows scripting.  \n\n
+    I spent all my time in a terminal window (usually terminator or KiTTY) \n
+    and swear that vim is a tool of the gods. \n\n
     If vim isn't available I'll use notepad++ or plain notepad only to wind up with :wq strewn \n
-    throughout every page.  \n
-    I'm interested in computer history and folklore, OSS, automation and vim.  Did I mention vim?  \n
-    I enjoy repairing, restoring and re-purposing broken or out-dated computers and hardware.
+    throughout every page.  \n\n
+    I'm interested in computer history and folklore, OSS, automation \n
+    and extending, breaking and fixing my .vimrc. \n\n
+    You know that one friend that has too many pets because they can't stand to see an animal \n
+    without a home?  Yeah, I'm that guy, but with computers.  I enjoy repairing, restoring and re-purposing \n
+    broken or out-dated computers and hardware and at any time have three or four machines in \n
+    various states of repair.
 
 profession: Linux Administrator/Network Engineer
-twitter_link: https://twitter.com/simplyodd
+twitter_link: https://twitter.com/iamchuckhawley
 linkedin_link: https://www.linkedin.com/pub/charles-hawley/23/37/64b
 github_link: https://github.com/crh0831
 
@@ -31,12 +36,17 @@ projects:
         - title: terminalResume
           image: 
           link: https://github.com/crh0831/terminalResume
-          description: A text-screen style Resume for SysAdmin's and other technical people
+          description: A text-screen style Resume for SysAdmin's and other technical people \n
             
-        - title: gitServer
-          image:
-          link: https://gogs.planethawleywood.com:8443/explore/repos
-          description: maintaining my own git server (using Gogs) for personal projects
+        - title: The Valentine Project
+          image: 
+          link: https://thevalentineproject.org
+          description: I volunteered at Cleveland GiveCamp and assisted 'The Valentine Project' \n
+                       in refreshing their web presence. I served as site admin by managing hosting, \n
+                       DNS, loading the initial CMS and database and configuring email. I handled site \n
+                       security by configuring SSL and hardening user accounts. I also assisted with \n
+                       scrum-style checklists and documentation to deliver a finished product in \n
+                       just over 24 working hours from July 21-23, 2017. \n
 
 education:
        - name: Cloudera, ExitCertified
@@ -46,6 +56,14 @@ education:
        - name: Cuyahoga Corporate College, Westlake, Ohio
          date: March 2011
          description: Configuring and Administering Windows 7    
+
+       - name: Cuyahoga Community College
+         date: 1990 - 1994
+         description: Associates Degree, Computer Science
+
+       - name: Total Technical Institute, North Royalton, Ohio
+         date: June 1987 - March 1988
+         description: certified hardware repair technician
 
 skills:
         - name: Linux
@@ -58,11 +76,11 @@ skills:
 
         - name: Containerization           
           description: have some experience with Vagrant and Docker
-          percentage: 60
+          percentage: 50
 
         - name: Ansible
           description: Continous Deployment and Integration, Server Installation and Environment Provision
-          percentage: 70
+          percentage: 50
 
         - name: Data Center
           description: Experience with Data Center deployments and maintenance of Dell and HP hardware (servers, switches, KVMs, PSUs)
@@ -74,15 +92,15 @@ skills:
 
         - name: Microsoft Windows
           description: general knowledge of all versions through Windows 10, Active Directory, RDP and administration
-          percentage: 60    
+          percentage: 75    
 
         - name: Database Administration      
           description: RDMBS(PostgreSQL, MySQL) and NoSQL(MongoDB) 
           percentage: 70
 
         - name: Data Science Administration 
-          description: Exprerience with installing/configuring R/R-Studio, Shiny Server,  Hadoop
-          percentage: 60 
+          description: Experience with installing/configuring R/R-Studio, Shiny Server,  Hadoop
+          percentage: 50 
 
 tools:
     - ssh
@@ -90,8 +108,9 @@ tools:
     - tmux
     - git
     - ansible 
+    - backuppc
     - PuTTY / KiTTY
-    - MySQL / Percona-Server
+    - MySQL / MariaDB /Percona-Server
     - Apache
     - DNS
     - Firewalls  
